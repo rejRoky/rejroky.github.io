@@ -1,10 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-gray-50 text-gray-900">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Rejaul Islam Roky</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rejaul Islam Roky | Software Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
+
+<body class="font-sans leading-relaxed tracking-wide">
+
+  <!-- Header Section -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl md:text-2xl font-bold text-blue-600">Rejaul Islam Roky</h1>
+      <nav class="space-x-4 text-sm md:text-base">
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#skills" class="hover:text-blue-500">Skills</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#certifications" class="hover:text-blue-500">Certifications</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20 text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Rejaul Islam Roky</h2>
+      <p class="text-lg md:text-xl">Backend Developer | Machine Learning Enthusiast | Cloud Solutions Architect</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto p-6 mt-12">
+    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+    <p>
+      I'm a passionate software engineer based in Dhaka, Bangladesh with experience in developing scalable backend systems using Python, Django REST Framework, and FastAPI. I work with modern Machine Learning and Cloud technologies to build efficient solutions. I have a strong foundation in data structures, algorithms, and system design, and I'm always eager to learn new technologies and improve my skills.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-white py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center">🛠️ Technical Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-sm">
+        <div>Python, Django, FastAPI</div>
+        <div>REST, GraphQL, gRPC</div>
+        <div>Docker, Kubernetes</div>
+        <div>Celery, RabbitMQ, Kafka</div>
+        <div>Pandas, NumPy, Seaborn</div>
+        <div>PyTorch, TensorFlow, NLP</div>
+        <div>PostgreSQL, MongoDB</div>
+        <div>AWS, GCP, DigitalOcean</div>
+        <div>Redis, MQTT</div>
+        <div>CI/CD, GitHub Actions</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="max-w-6xl mx-auto p-6">
+    <h2 class="text-3xl font-bold mt-16 mb-6">💼  Projects</h2>
+    <div class="space-y-12">
+      <div>
+        <h4 class="text-2xl font-semibold">Bangla Virtual Private Assistant – EBLICT, BCC, ICT Division</h4>
+        <p class="text-gray-700">Text and speech-based Bangla AI ecosystem for real-life tasks.</p>
+        <p class="text-sm mt-2 italic">Python · Machine Learning · Django REST Framework · FastAPI · PostgreSQL · MongoDB</p>
+      </div>
+      <div>
+        <h4 class="text-2xl font-semibold">Voice for JUSTICE – EBLICT, BCC, ICT Division</h4>
+        <p class="text-gray-700">Complaint Management System for citizens to report public service issues.</p>
+        <p class="text-sm mt-2 italic">Django REST Framework · PostgreSQL · React.js · AI</p>
+      </div>
+      <div>
+        <h4 class="text-2xl font-semibold">Intelligent Land Knowledge Management System (Bhumipedia) – Ministry of Land</h4>
+        <p class="text-gray-700">AI-driven knowledge management platform for land-related documentation.</p>
+        <p class="text-sm mt-2 italic">PyTorch · TensorFlow · NLP · Celery · Redis · PostgreSQL · REST APIs</p>
+      </div>
+      <div>
+        <h4 class="text-2xl font-semibold">Jyoti Vending Solutions – Vertical Innovations Ltd.</h4>
+        <p class="text-gray-700">IoT-backed sanitary vending system with real-time monitoring and payment gateway integration.</p>
+        <p class="text-sm mt-2 italic">Django REST Framework · IoT · Payment Gateways · MQTT · JWT</p>
+      </div>
+      <div>
+        <h4 class="text-2xl font-semibold">IoT Based Agricultural Field Monitoring System – AIUB</h4>
+        <p class="text-gray-700">Smart agriculture system using sensors and automated irrigation management.</p>
+        <p class="text-sm mt-2 italic">IoT · Python · Embedded Systems</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="bg-white py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4">📜 Certifications</h2>
+      <ul class="list-disc ml-6 space-y-1 text-sm">
+        <li>HackerRank: Software Engineer Certificate</li>
+        <li>Kaggle: Intermediate Machine Learning</li>
+        <li>ICSI UK: CNSS Certified Network Security Specialist</li>
+        <li>Coursera: AWS Fundamentals Specialization</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-6xl mx-auto p-6">
+    <h2 class="text-2xl font-semibold mb-4">📬 Contact</h2>
+    <p><i class="fa-solid fa-envelope mr-2"></i><a href="mailto:rejaul.islam.roky@gmail.com" class="text-blue-600">rejaul.islam.roky@gmail.com</a></p>
+    <p><i class="fa-brands fa-linkedin mr-2"></i><a href="https://linkedin.com/in/rejroky" class="text-blue-600">linkedin.com/in/rejroky</a></p>
+    <p><i class="fa-brands fa-github mr-2"></i><a href="https://github.com/rejRoky" class="text-blue-600">github.com/rejRoky</a></p>
+    <p><i class="fa-brands fa-hackerrank mr-2"></i><a href="https://hackerrank.com/rejRoky" class="text-blue-600">hackerrank.com/rejRoky</a></p>
+    <p><i class="fa-solid fa-code mr-2"></i><a href="https://leetcode.com/rejroky" class="text-blue-600">leetcode.com/rejroky</a> | <a href="https://kaggle.com/rejroky" class="text-blue-600">kaggle.com/rejroky</a></p>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-200 text-center py-4">
+    <p class="text-sm">© 2025 Rejaul Islam Roky — All rights reserved.</p>
+  </footer>
 
 </body>
+
 </html>
